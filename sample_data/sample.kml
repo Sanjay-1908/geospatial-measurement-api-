@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Placemark>
+      <name>Sample land plot</name>
+      <description>Example polygon for testing</description>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>
+        11.0000,76.0000,0
+        11.0010,76.0000,0
+        11.0010,76.0010,0
+        11.0000,76.0010,0
+        11.0000,76.0000,0
+      </coordinates></LinearRing></outerBoundaryIs></Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Sample road</name>
+      <LineString><coordinates>11.0000,76.0000,0 11.0020,76.0020,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sample point</name>
+      <Point><coordinates>11.0005,76.0005,0</coordinates></Point>
+    </Placemark>
+  </Document>
+</kml>
